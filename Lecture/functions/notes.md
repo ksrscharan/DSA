@@ -4,8 +4,11 @@
 - _example:_ 
     > f (x) = x + 4
 - Whenever you have set of instructions to be performed on a certain input, then you can go for or create function out of it.
+## Why Functions?
 - Reduces code redundancy.
 - Logic with variable input.
+- Readable, organized.
+- Any logic can be separated into functions.
 
 ## Function Declaration
 ```
@@ -22,3 +25,4 @@ returnType functionName (inputToFunction){
 - A function cannot return twice.
 - A function can be called as many times.
 - No code runs after return statement.
+
