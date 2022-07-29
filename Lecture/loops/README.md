@@ -13,6 +13,8 @@ for(init; cond; increment/decrement){
 ```
 - Things to remember
     - Best to use in most cases.
+    - For known number of iteration, use _for_ loop.
+
 ### While Loop
 
 ```
@@ -22,8 +24,18 @@ while(condition){
     increment/decrement;
 }
 ```
-
 - Things to remember
-  - When there's no stopping condition, loop goes infinite.
-  - For known number of iteration, use _for_ loop.
-  - When you know stopping condition, use _while_ loop.
+    - When there's no stopping condition, loop goes infinite.
+    - For known number of iteration, use _for_ loop.
+    - When you know stopping condition, use _while_ loop.
+
+### Do-While Loop
+```
+init
+do{
+    code;
+    increment/decrement;
+}while(condition)
+```
+- Things to remember
+    - Will at least pnce before checking for condition.
